@@ -1,91 +1,184 @@
-body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background-image: url('/images/awd.jpg');
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
 }
 
-.containet{
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 0 15px;
+.containet {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
-
-/* -----------header-------- */         
-.header{
-    background-image: url("/images/awd.jpg");
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    background-repeat: no-repeat;
+/* -----------header-------- */
+.header {
+	padding-bottom: 184px;
 }
-.nav{
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 55px;
+    padding-left: 76px;
+    padding-right: 54px;
+}
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.logo {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	width: 113px;
+	height: 37px;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+}
+.menu_link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 25px;
+}
+.menu_link_akk {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 17px;
+}
+.logo {
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+}
+.logo_sumbyl {
+	padding-left: 2px;
+}
+.menu_img {
+	position: absolute;
+	right: 152px;
+    top: 67px;
+}
+.menu_link1 {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding-right: 28px;
+}
+.menu_link2 {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding-right: 32px;
+}
+.menu_item {
+	padding-right: 30px;
+}
+.menu_link3 {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding-right: 12px;
+}
+
+/* ----------beginning-------------- */
+
+.beginning_content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 55px 40px 91px 70px;
 }
-.menu{
-    list-style: none; 
-    padding: 0;
+.social {
+	color: #fff; 
+    padding-top: 67px;
 }
-.logo{
-    font-family: "Playfair Display", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    width: 113px;
-    height: 37px;
-    letter-spacing: 0.01em;
+.social_img {
+	color: #fff;
+	display: flex;
+	padding-left: 79px;
+	margin-top: 16px;
+}
+.twitter{
+    padding-top: 10px;
+}
+.social_text {
+	font-weight: 700;
+	font-size: 18px;
+	writing-mode: vertical-lr;
+	padding-left: 77px;
+}
+
+.beginning_text{
+    width: 950px;
+    height: 419px;
+    padding-left: 73px;
+}
+.title_beginning_text {
+	color: #fbd784;
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: 0.33em;
+	text-transform: uppercase;
+    
+}
+.text_item{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 114%;
     text-transform: capitalize;
-}
-.menu_link{
-    text-decoration: none;
     color: #fff;
+    padding-top: 35px;
+}
+.text_item_begin{
+    padding-left: 110px;
+}
+.title_beginning_text:before{
+  content: " ";
+  background: #fbd784;
+  width: 72px;
+  height: 2px;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.scroll{
+    padding-top: 27px;
     font-weight: 700;
     font-size: 18px;
-    padding-left: 25px;
-}
-.menu_link_akk{
-    text-decoration: none;
     color: #fff;
-    font-weight: 700;
-    font-size: 17px;
-   
 }
-.logo{
+.beginning_scroll{
+    padding-right: 110px;
+    padding-top: 56px;
+}
+.slider{
+    position: absolute;
+    right: 5rem;
+    top: 20.3rem;
+}
+.text_scroll{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff
+}
+.scroll_number{
     display: flex;
-    text-decoration: none;
-    padding-left: 5px;
-    color: #fff;
-}
-.logo_sumbyl{
-    padding-left: 2px;
-}
-.menu_img{
-    position:absolute;
-    right: 136px;
-}
-.menu_link1{
-    text-decoration: none;
-    color: #fff;
+    justify-content: end;
+    padding-top: 45px;
     font-weight: 700;
     font-size: 18px;
-    padding-right: 24px;
-}
-.menu_link2{
-    text-decoration: none;
     color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    padding-right: 18px;
-   
+    padding-right: 2px;
+    
 }
-.menu_item{
-    padding-right: 37px;
-}
-.menu_link3{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    padding-left: 10px;
-}
+/* ------------------------ */
