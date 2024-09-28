@@ -863,6 +863,13 @@ body {
 	.menu {
 		height: 350px;
 	}
+	.menu-open .logo{
+		font-size: 32px;
+		padding-left: 20px;
+	}
+	.menu-open .nav_button{
+		width: 70px;
+	}
 	.menu-open .menu .menu_item .menu_link1 {
 		transform: translateY(177px);
 		left: 40px;
@@ -919,6 +926,7 @@ body {
 	.title_beginning_text:before {
 		margin-top: 47px;
 		transform: translateX(-16px);
+		z-index: -10;
 	}
 	.text_item {
 		line-height: 159%;
