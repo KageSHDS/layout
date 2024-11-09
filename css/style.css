@@ -537,7 +537,7 @@ body {
 	}
 	.menu_img {
 		visibility: hidden;
-		content: url(/images/cart_bl.svg);
+		content: url('/images/cart_bl.svg');
 		fill: "#AB7C94"
 	}
 	.menu-open .akk .menu_img {
@@ -1017,7 +1017,7 @@ body {
 		transform: translateY(6px);
 	}
 	.slider1_img {
-		content: url(/images/01\(480\).png);
+		content: url('/images/01\(480\).png');
 		width: 440px;
 		height: 509px;
 		padding-left: 5px;
